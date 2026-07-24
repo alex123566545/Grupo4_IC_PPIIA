@@ -1,8 +1,10 @@
-TEST_SIZE = 0.15
+TEST_SIZE = 0.25   # Fase 4 del proyecto SIPREM-BOVINO: hold-out 25% estratificado
 
 RANDOM_STATE = 42
 
-TARGET = "tasa_mortalidad_semana_siguiente_pct"
+TARGET = "target_riesgo_alto_3sem"   # clasificación binaria de riesgo de mortalidad alta
+                                      # en t+1, t+2 o t+3 (ventana de 3 semanas, no solo la
+                                      # semana inmediata siguiente -> ver hallazgo de precision baja)
 
 FEATURES = [
     #"id_lote",
@@ -37,13 +39,22 @@ FEATURES = [
     "amplitud_termica",
     "riesgo_climatico",
     "indice_salud_lote",
+    "media_movil_3s_temperatura",
+    "media_movil_3s_pastura",
+    "media_movil_3s_condicion_corporal",
+    #"media_movil_3s_casos_clinicos",               # importancia casi nula, descartada
+    #"casos_respiratorios_lag1",                     # importancia casi nula, descartada
+    #"casos_diarreicos_lag1",                        # importancia casi nula, descartada
+    #"interaccion_desparasitacion_animales_nuevos",  # importancia casi nula, descartada
     "mes",
     "temporada",
     "semana_sin",
     "semana_cos",
-    #"semana_anio",                        # reemplazada por codificación cíclica
-    #"muertes_semana_siguiente",           # fuga: mismo target en otra forma
-    #"riesgo_mortalidad_alta_semana_siguiente",  # fuga: mismo target en otra forma
+    #"semana_anio",                                # reemplazada por codificación cíclica
+    #"muertes_semana_siguiente",                    # fuga: mismo target en otra forma
+    #"tasa_mortalidad_semana_siguiente_pct",         # fuga: mismo target en otra forma
+    #"riesgo_mortalidad_alta_semana_siguiente",      # fuga: mismo target en otra forma (texto)
+    #"target_riesgo_alto",                           # fuga: subconjunto del nuevo target (t+1 solo)
 ]
 
 MODEL_PATH = "models/model.pkl"

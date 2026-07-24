@@ -4,10 +4,15 @@ import pickle
 import numpy as np
 import pandas as pd
 
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import (
+    RandomForestClassifier,
+    GradientBoostingClassifier,
+    StackingClassifier
+)
+
+from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-
 
 from src.config.settings import (
     FEATURES,
@@ -21,18 +26,14 @@ from src.config.settings import (
 
 def train_model(conn):
     """
-    Entrena el modelo de Machine Learning.
+    Entrena un modelo Stacking.
 
-    Parámetros
-    ----------
-    conn : psycopg2.connection
-        Conexión a la base de datos.
+    Modelos base:
+        - Random Forest
+        - Gradient Boosting
 
-    Retorna
-    -------
-    model : RandomForestClassifier
-    X_test : DataFrame
-    y_test : Series
+    Meta-modelo:
+        - Logistic Regression
     """
 
     # ====================================
@@ -47,33 +48,39 @@ def train_model(conn):
     df = pd.read_sql(query, conn)
 
     # ====================================
-    # Excluir filas sin target válido
-    # (target_riesgo_alto_3sem queda NULL en las últimas semanas de cada
-    #  lote, donde no hay 3 semanas completas de futuro para evaluar)
+    # Eliminar targets nulos
     # ====================================
 
     filas_antes = len(df)
+
     df = df[df[TARGET].notna()].copy()
-    print(f"ℹ️  Filas excluidas por target nulo (sin futuro suficiente): {filas_antes - len(df)}")
+
+    print(
+        f"ℹ️ Filas excluidas por target nulo: {filas_antes-len(df)}"
+    )
 
     # ====================================
-    # Feature engineering: codificación cíclica de semana_anio
-    # (semana 52 y semana 1 deben quedar "cerca" para el modelo,
-    #  cosa que un entero plano de 1 a 52 no representa)
+    # Feature Engineering
     # ====================================
 
-    df["semana_sin"] = np.sin(2 * np.pi * df["semana_anio"] / 52)
-    df["semana_cos"] = np.cos(2 * np.pi * df["semana_anio"] / 52)
+    df["semana_sin"] = np.sin(
+        2 * np.pi * df["semana_anio"] / 52
+    )
+
+    df["semana_cos"] = np.cos(
+        2 * np.pi * df["semana_anio"] / 52
+    )
 
     # ====================================
-    # Variables predictoras y objetivo
+    # Variables
     # ====================================
 
     X = df[FEATURES].copy()
+
     y = df[TARGET].astype(int)
 
     # ====================================
-    # Encoding variables categóricas
+    # Label Encoding
     # ====================================
 
     encoders = {}
@@ -94,9 +101,6 @@ def train_model(conn):
 
     # ====================================
     # Train Test Split
-    # (estratificado por la clase objetivo: conserva la proporción
-    #  real ~36% riesgo alto / ~64% riesgo bajo en train y test,
-    #  con el target de ventana de 3 semanas)
     # ====================================
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -108,12 +112,10 @@ def train_model(conn):
     )
 
     # ====================================
-    # Modelo
-    # (Random Forest de 300 árboles con poda de profundidad y pesos
-    #  de clase balanceados, según la Fase 4 del proyecto)
+    # Modelo Random Forest
     # ====================================
 
-    model = RandomForestClassifier(
+    rf = RandomForestClassifier(
         n_estimators=300,
         max_depth=8,
         criterion="gini",
@@ -124,10 +126,58 @@ def train_model(conn):
         n_jobs=-1
     )
 
+    # ====================================
+    # Modelo Gradient Boosting
+    # ====================================
+
+    gb = GradientBoostingClassifier(
+        n_estimators=300,
+        learning_rate=0.05,
+        max_depth=4,
+        min_samples_split=5,
+        min_samples_leaf=5,
+        random_state=RANDOM_STATE
+    )
+
+    # ====================================
+    # Modelos base
+    # ====================================
+
+    estimators = [
+        ("RandomForest", rf),
+        ("GradientBoosting", gb)
+    ]
+
+    # ====================================
+    # Meta-modelo
+    # ====================================
+
+    meta_model = LogisticRegression(
+        max_iter=1000,
+        random_state=RANDOM_STATE
+    )
+
+    # ====================================
+    # Stacking
+    # ====================================
+
+    model = StackingClassifier(
+        estimators=estimators,
+        final_estimator=meta_model,
+        cv=5,
+        stack_method="predict_proba",
+        n_jobs=-1,
+        passthrough=False
+    )
+
+    # ====================================
+    # Entrenamiento
+    # ====================================
+
     model.fit(X_train, y_train)
 
     # ====================================
-    # Crear carpeta models
+    # Crear carpeta
     # ====================================
 
     os.makedirs("models", exist_ok=True)
@@ -146,6 +196,6 @@ def train_model(conn):
     with open(ENCODERS_PATH, "wb") as f:
         pickle.dump(encoders, f)
 
-    print("✅ Modelo entrenado correctamente.")
+    print("✅ Modelo Stacking entrenado correctamente.")
 
     return model, X_test, y_test
