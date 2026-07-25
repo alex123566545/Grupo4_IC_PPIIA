@@ -17,27 +17,37 @@ from src.training.train_random_search import train_model
 def buscar_mejor_umbral(
         y_real,
         probabilidades,
-        precision_minima=0.70
+        recall_minimo=0.60
 ):
     """
     Busca automáticamente el mejor umbral.
 
-    Criterios:
+    Criterios (CORREGIDO -- ver nota abajo):
 
-    1. Precision >= precision_minima
+    1. Recall >= recall_minimo (piso obligatorio: meta del proyecto)
 
-    2. Entre ellos,
-       elegir el mayor Recall.
+    2. Entre los que cumplen el piso,
+       elegir la mayor Precision.
 
     3. Si hay empate,
        elegir el mayor F1.
+
+    NOTA IMPORTANTE: el proyecto define recall >= 0.60 como meta
+    (no negociable, es el objetivo SMART del documento base). Precision
+    es lo que queremos maximizar, pero NUNCA a costa de bajar el recall
+    del piso. La versión anterior de esta función hacía lo opuesto
+    (filtraba por precision >= 0.70 y maximizaba recall dentro de eso),
+    lo cual elegía umbrales que sí llegaban a "Precision >= 0.70" pero
+    con recall tan bajo como 0.511 -- por debajo de la meta real del
+    proyecto, aunque el resumen final decía "✅ objetivo alcanzado"
+    porque solo revisaba precision, no recall.
     """
 
     mejor_umbral = None
 
-    mejor_precision = 0
+    mejor_precision = -1
 
-    mejor_recall = -1
+    mejor_recall = 0
 
     mejor_f1 = -1
 
@@ -84,19 +94,19 @@ def buscar_mejor_umbral(
         })
 
         # Solo considerar umbrales
-        # con precisión suficiente
+        # que cumplan el piso de recall
 
-        if precision >= precision_minima:
+        if recall >= recall_minimo:
 
             if (
 
-                recall > mejor_recall
+                precision > mejor_precision
 
                 or
 
                 (
 
-                    recall == mejor_recall
+                    precision == mejor_precision
 
                     and
 
@@ -114,9 +124,9 @@ def buscar_mejor_umbral(
 
                 mejor_f1 = f1
 
-    # Si ningún umbral alcanza la
-    # precisión solicitada, usar el
-    # de mayor Precision disponible.
+    # Si ningún umbral alcanza el recall solicitado, usar el
+    # de mayor Recall disponible (nunca elegir un umbral que
+    # ya sabemos que incumple la meta del proyecto).
 
     if mejor_umbral is None:
 
@@ -124,7 +134,7 @@ def buscar_mejor_umbral(
 
             resultados,
 
-            key=lambda x: x["precision"]
+            key=lambda x: x["recall"]
 
         )
 
@@ -136,9 +146,10 @@ def buscar_mejor_umbral(
 
         mejor_f1 = mejor["f1"]
 
-        print("\n⚠ Ningún umbral alcanzó la Precision solicitada.")
-
-        print("Se utilizará el umbral con mayor Precision.\n")
+        print("\n⚠ Ningún umbral alcanzó el Recall solicitado.")
+        print("Se utilizará el umbral con mayor Recall disponible.")
+        print("(el modelo puede necesitar ajustes -- este resultado")
+        print(" no cumple la meta del proyecto tal como está)\n")
 
     return (
 
@@ -193,7 +204,7 @@ def main():
 
         y_prob,
 
-        precision_minima=0.70
+        recall_minimo=0.60
 
     )
 
@@ -244,9 +255,9 @@ def main():
 
     print("\nCriterio utilizado:")
 
-    print("1. Precision >= 0.70")
+    print("1. Recall >= 0.60 (piso, meta del proyecto)")
 
-    print("2. Mayor Recall")
+    print("2. Mayor Precision")
 
     print("3. Mayor F1 (desempate)")
 
@@ -380,13 +391,22 @@ def main():
     print("RESUMEN")
     print("=" * 60)
 
-    if precision >= 0.70:
+    # Se revisan AMBAS metas del proyecto, no solo precision.
+    # recall es la meta no negociable (piso); precision>=0.70 es el
+    # objetivo que perseguimos dentro de ese piso.
 
-        print("✅ Se alcanzó la Precision objetivo (>= 0.70).")
+    if recall >= 0.60 and precision >= 0.70:
+
+        print("✅ Se alcanzaron ambas metas: Recall >= 0.60 y Precision >= 0.70.")
+
+    elif recall >= 0.60:
+
+        print("✅ Se alcanzó la meta de Recall (>= 0.60).")
+        print("⚠️  Precision quedó por debajo de 0.70.")
 
     else:
 
-        print("❌ No se alcanzó la Precision objetivo.")
+        print("❌ No se alcanzó la meta de Recall del proyecto (>= 0.60).")
 
     print(f"Umbral seleccionado : {mejor_umbral:.2f}")
     print(f"Precision final     : {precision:.4f}")
