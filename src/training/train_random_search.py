@@ -17,7 +17,12 @@ from sklearn.preprocessing import LabelEncoder
 
 from sklearn.metrics import (
     make_scorer,
-    fbeta_score
+    fbeta_score,
+    precision_recall_curve,
+    precision_score,
+    recall_score,
+    f1_score,
+    roc_auc_score,
 )
 
 from src.config.settings import (
@@ -37,6 +42,12 @@ def train_model(conn):
 
     La optimización utiliza F-beta (β=0.5),
     favoreciendo Precision sin ignorar Recall.
+
+    IMPORTANTE: no se sortea bootstrap=False junto con max_samples,
+    porque scikit-learn levanta ValueError si max_samples != None y
+    bootstrap=False. Combinarlos en el mismo espacio de búsqueda hace
+    que ~37% de las combinaciones fallen silenciosamente (score=NaN),
+    desperdiciando gran parte del presupuesto de RandomizedSearchCV.
     """
 
     # ====================================
@@ -135,7 +146,7 @@ def train_model(conn):
 
     # ====================================
     # Función de evaluación
-    # Favorece Precision
+    # Favorece Precision, sin abandonar Recall
     # ====================================
 
     fbeta = make_scorer(
@@ -147,6 +158,13 @@ def train_model(conn):
     )
         # ====================================
     # Espacio de búsqueda de hiperparámetros
+    #
+    # NOTA: bootstrap se fija en True. max_samples solo tiene efecto
+    # (y solo es válido) cuando bootstrap=True -- sortearlos por
+    # separado con bootstrap=False en el espacio hace fallar ~37% de
+    # las combinaciones (ValueError de sklearn). Si quieres explorar
+    # bootstrap=False, hazlo en una búsqueda aparte con max_samples
+    # fijo en [None], nunca mezclado con valores numéricos.
     # ====================================
 
     param_dist = {
@@ -205,12 +223,10 @@ def train_model(conn):
 
         ],
 
-        # Bootstrap
+        # Bootstrap fijo en True (ver nota arriba)
         "bootstrap": [
 
-            True,
-
-            False
+            True
 
         ],
 
@@ -241,6 +257,7 @@ def train_model(conn):
         ],
 
         # Porcentaje de muestras para cada árbol
+        # (válido: bootstrap ya está fijo en True)
         "max_samples": [
 
             None,
@@ -333,6 +350,57 @@ def train_model(conn):
         f"Mejor F-beta promedio: "
         f"{random_search.best_score_:.4f}"
     )
+
+    # ====================================
+    # Cuántas combinaciones fallaron (diagnóstico)
+    # ====================================
+
+    scores = random_search.cv_results_["mean_test_score"]
+    n_fallidas = int(np.isnan(scores).sum())
+    print(
+        f"Combinaciones fallidas (score=NaN): "
+        f"{n_fallidas} de {len(scores)}"
+    )
+
+    # ====================================
+    # Diagnóstico de umbral con piso de recall >= 0.60
+    # (el proyecto exige recall >= 0.60; F-beta(0.5) solo no lo
+    #  garantiza, así que se verifica explícitamente aquí)
+    # ====================================
+
+    proba_test = model.predict_proba(X_test)[:, 1]
+    auc_test = roc_auc_score(y_test, proba_test)
+
+    print("\n")
+    print("=" * 60)
+    print("META DEL PROYECTO (Objetivo General, documento SIPREM-BOVINO)")
+    print("=" * 60)
+    print(f"AUC-ROC obtenido : {auc_test:.4f}  (meta: >= 0.70)  "
+          f"{'✅ CUMPLE' if auc_test >= 0.70 else '❌ NO CUMPLE'}")
+
+    precisions, recalls, thresholds = precision_recall_curve(y_test, proba_test)
+    idx_validos = np.where(recalls[:-1] >= 0.60)[0]
+
+    print("\n")
+    print("=" * 60)
+    print("DIAGNÓSTICO DE UMBRAL (recall mínimo = 0.60)")
+    print("=" * 60)
+
+    if len(idx_validos) == 0:
+        print("⚠️  Ningún umbral alcanza recall >= 0.60 con este modelo. "
+              "F-beta(0.5) puede haber sacrificado demasiado recall -- "
+              "revisar si conviene volver a F1 o subir beta.")
+    else:
+        mejor_idx = idx_validos[np.argmax(precisions[idx_validos])]
+        umbral_sugerido = thresholds[mejor_idx]
+        pred_sugerida = (proba_test >= umbral_sugerido).astype(int)
+        print(f"Umbral sugerido        : {umbral_sugerido:.3f}")
+        print(f"Precision en ese umbral: {precision_score(y_test, pred_sugerida, zero_division=0):.4f}")
+        print(f"Recall en ese umbral    : {recall_score(y_test, pred_sugerida, zero_division=0):.4f}")
+        print(f"F1 en ese umbral        : {f1_score(y_test, pred_sugerida, zero_division=0):.4f}")
+
+    print("=" * 60)
+
         # ====================================
     # Crear carpeta models
     # ====================================
