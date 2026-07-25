@@ -15,6 +15,10 @@ from sklearn.model_selection import (
 
 from sklearn.preprocessing import LabelEncoder
 
+from sklearn.metrics import (
+    make_scorer,
+    fbeta_score
+)
 
 from src.config.settings import (
     FEATURES,
@@ -29,8 +33,10 @@ from src.config.settings import (
 def train_model(conn):
     """
     Entrena un Random Forest optimizado mediante
-    RandomizedSearchCV utilizando ROC-AUC como
-    métrica de optimización.
+    RandomizedSearchCV.
+
+    La optimización utiliza F-beta (β=0.5),
+    favoreciendo Precision sin ignorar Recall.
     """
 
     # ====================================
@@ -70,7 +76,7 @@ def train_model(conn):
     )
 
     # ====================================
-    # Variables predictoras y objetivo
+    # Variables predictoras
     # ====================================
 
     X = df[FEATURES].copy()
@@ -127,6 +133,18 @@ def train_model(conn):
 
     )
 
+    # ====================================
+    # Función de evaluación
+    # Favorece Precision
+    # ====================================
+
+    fbeta = make_scorer(
+
+        fbeta_score,
+
+        beta=0.5
+
+    )
         # ====================================
     # Espacio de búsqueda de hiperparámetros
     # ====================================
@@ -135,7 +153,7 @@ def train_model(conn):
 
         # Número de árboles
         "n_estimators": randint(
-            200,
+            300,
             1000
         ),
 
@@ -143,19 +161,12 @@ def train_model(conn):
         "max_depth": [
 
             5,
-
             8,
-
             10,
-
             12,
-
             15,
-
             20,
-
             25,
-
             None
 
         ],
@@ -171,25 +182,19 @@ def train_model(conn):
 
         ],
 
-        # Número mínimo de muestras
-        # para dividir un nodo
-
+        # Muestras mínimas para dividir un nodo
         "min_samples_split": randint(
             2,
             20
         ),
 
-        # Número mínimo de muestras
-        # en una hoja
-
+        # Muestras mínimas por hoja
         "min_samples_leaf": randint(
             1,
             10
         ),
 
-        # Número de variables candidatas
-        # en cada división
-
+        # Variables candidatas por división
         "max_features": [
 
             "sqrt",
@@ -201,7 +206,6 @@ def train_model(conn):
         ],
 
         # Bootstrap
-
         "bootstrap": [
 
             True,
@@ -210,8 +214,7 @@ def train_model(conn):
 
         ],
 
-        # Estrategia para clases desbalanceadas
-
+        # Balanceo de clases
         "class_weight": [
 
             None,
@@ -220,13 +223,41 @@ def train_model(conn):
 
             "balanced_subsample"
 
+        ],
+
+        # Poda del árbol
+        "ccp_alpha": [
+
+            0.0,
+
+            0.0005,
+
+            0.001,
+
+            0.005,
+
+            0.01
+
+        ],
+
+        # Porcentaje de muestras para cada árbol
+        "max_samples": [
+
+            None,
+
+            0.7,
+
+            0.8,
+
+            0.9
+
         ]
 
     }
 
 
     # ====================================
-    # Random Search
+    # Randomized Search
     # ====================================
 
     random_search = RandomizedSearchCV(
@@ -235,17 +266,13 @@ def train_model(conn):
 
         param_distributions=param_dist,
 
-        # Número de combinaciones
-
+        # Puedes subirlo a 500 si tienes tiempo
         n_iter=300,
-
-        # Validación cruzada
 
         cv=5,
 
-        # MÉTRICA PRINCIPAL
-
-        scoring="roc_auc",
+        # Favorece Precision
+        scoring=fbeta,
 
         random_state=RANDOM_STATE,
 
@@ -263,11 +290,10 @@ def train_model(conn):
     print("INICIANDO RANDOMIZED SEARCH")
     print("=" * 60)
 
-    print("Métrica de optimización: ROC-AUC")
-
-    print("Combinaciones a evaluar:", 300)
-
-    print("Folds:", 5)
+    print("Métrica de optimización : F-beta (β=0.5)")
+    print("Prioridad              : Precision > Recall")
+    print(f"Combinaciones          : {random_search.n_iter}")
+    print(f"Folds                  : {random_search.cv}")
 
     print("=" * 60)
 
@@ -298,23 +324,15 @@ def train_model(conn):
     for parametro, valor in random_search.best_params_.items():
 
         print(
-
             f"{parametro}: {valor}"
-
         )
 
 
     print("\n")
-
     print(
-
-        f"Mejor ROC-AUC promedio: "
-
+        f"Mejor F-beta promedio: "
         f"{random_search.best_score_:.4f}"
-
     )
-
-
         # ====================================
     # Crear carpeta models
     # ====================================
@@ -325,7 +343,7 @@ def train_model(conn):
     )
 
     # ====================================
-    # Guardar mejor modelo
+    # Guardar modelo optimizado
     # ====================================
 
     with open(
@@ -352,6 +370,10 @@ def train_model(conn):
             f
         )
 
+    # ====================================
+    # Información final
+    # ====================================
+
     print("\n")
     print("=" * 60)
     print("MODELO OPTIMIZADO GUARDADO")
@@ -371,6 +393,39 @@ def train_model(conn):
     )
 
     print("=" * 60)
+
+    # ====================================
+    # Importancia de variables
+    # ====================================
+
+    importancia = pd.DataFrame({
+
+        "Variable": X_train.columns,
+
+        "Importancia": model.feature_importances_
+
+    })
+
+    importancia = importancia.sort_values(
+
+        by="Importancia",
+
+        ascending=False
+
+    )
+
+    print("\n")
+    print("=" * 60)
+    print("TOP 15 VARIABLES MÁS IMPORTANTES")
+    print("=" * 60)
+
+    print(
+        importancia.head(15).to_string(index=False)
+    )
+
+    # ====================================
+    # Retornar resultados
+    # ====================================
 
     return (
 
