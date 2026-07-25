@@ -7,6 +7,7 @@ import pandas as pd
 from scipy.stats import randint
 
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.model_selection import (
     train_test_split,
     RandomizedSearchCV
@@ -28,7 +29,8 @@ from src.config.settings import (
 def train_model(conn):
     """
     Entrena un Random Forest optimizado mediante
-    RandomizedSearchCV buscando maximizar Precision.
+    RandomizedSearchCV utilizando ROC-AUC como
+    métrica de optimización.
     """
 
     # ====================================
@@ -42,7 +44,6 @@ def train_model(conn):
 
     df = pd.read_sql(query, conn)
 
-
     # ====================================
     # Eliminar registros sin target
     # ====================================
@@ -51,15 +52,13 @@ def train_model(conn):
 
     df = df[df[TARGET].notna()].copy()
 
-
     print(
         f"ℹ️ Filas excluidas por target nulo: "
         f"{filas_antes - len(df)}"
     )
 
-
     # ====================================
-    # Feature engineering
+    # Ingeniería de variables
     # ====================================
 
     df["semana_sin"] = np.sin(
@@ -70,16 +69,13 @@ def train_model(conn):
         2 * np.pi * df["semana_anio"] / 52
     )
 
-
     # ====================================
-    # Separar variables
+    # Variables predictoras y objetivo
     # ====================================
 
     X = df[FEATURES].copy()
 
     y = df[TARGET].astype(int)
-
-
 
     # ====================================
     # Codificación variables categóricas
@@ -87,25 +83,19 @@ def train_model(conn):
 
     encoders = {}
 
-
     categorical_columns = X.select_dtypes(
         include=["object", "category"]
     ).columns
-
 
     for col in categorical_columns:
 
         encoder = LabelEncoder()
 
-
         X[col] = encoder.fit_transform(
             X[col].astype(str)
         )
 
-
         encoders[col] = encoder
-
-
 
     # ====================================
     # División entrenamiento / prueba
@@ -125,61 +115,52 @@ def train_model(conn):
 
     )
 
-
     # ====================================
-    # Random Forest base
+    # Modelo base
     # ====================================
 
     rf = RandomForestClassifier(
-
-        class_weight="balanced",
 
         random_state=RANDOM_STATE,
 
         n_jobs=-1
 
     )
+
         # ====================================
     # Espacio de búsqueda de hiperparámetros
-    # Optimizado para Precision
     # ====================================
 
     param_dist = {
 
-        # Cantidad de árboles
+        # Número de árboles
         "n_estimators": randint(
             200,
-            800
+            1000
         ),
 
-
-        # Profundidad máxima del árbol
+        # Profundidad máxima
         "max_depth": [
+
             5,
+
             8,
+
             10,
+
             12,
+
             15,
+
             20,
+
+            25,
+
             None
+
         ],
 
-
-        # Mínimo de muestras para dividir un nodo
-        "min_samples_split": randint(
-            2,
-            12
-        ),
-
-
-        # Mínimo de muestras en una hoja
-        "min_samples_leaf": randint(
-            1,
-            6
-        ),
-
-
-        # Función de impureza
+        # Criterio de división
         "criterion": [
 
             "gini",
@@ -190,22 +171,54 @@ def train_model(conn):
 
         ],
 
+        # Número mínimo de muestras
+        # para dividir un nodo
 
-        # Número de variables consideradas
+        "min_samples_split": randint(
+            2,
+            20
+        ),
+
+        # Número mínimo de muestras
+        # en una hoja
+
+        "min_samples_leaf": randint(
+            1,
+            10
+        ),
+
+        # Número de variables candidatas
         # en cada división
+
         "max_features": [
 
             "sqrt",
 
-            "log2"
+            "log2",
+
+            None
 
         ],
 
+        # Bootstrap
 
-        # Usar bootstrap
         "bootstrap": [
 
-            True
+            True,
+
+            False
+
+        ],
+
+        # Estrategia para clases desbalanceadas
+
+        "class_weight": [
+
+            None,
+
+            "balanced",
+
+            "balanced_subsample"
 
         ]
 
@@ -213,54 +226,50 @@ def train_model(conn):
 
 
     # ====================================
-    # Randomized Search
+    # Random Search
     # ====================================
 
     random_search = RandomizedSearchCV(
 
         estimator=rf,
 
-
         param_distributions=param_dist,
 
-
-        # Probar 300 combinaciones diferentes
+        # Número de combinaciones
 
         n_iter=300,
-
-
-        # IMPORTANTE:
-        # ahora buscamos PRECISION
-
-        scoring="precision",
-
 
         # Validación cruzada
 
         cv=5,
 
+        # MÉTRICA PRINCIPAL
+
+        scoring="roc_auc",
 
         random_state=RANDOM_STATE,
 
-
-        verbose=2,
-
-
         n_jobs=-1,
 
+        verbose=2,
 
         return_train_score=True
 
     )
 
 
-
     print("\n")
     print("=" * 60)
     print("INICIANDO RANDOMIZED SEARCH")
-    print("OBJETIVO: MAXIMIZAR PRECISION")
     print("=" * 60)
 
+    print("Métrica de optimización: ROC-AUC")
+
+    print("Combinaciones a evaluar:", 300)
+
+    print("Folds:", 5)
+
+    print("=" * 60)
 
 
     random_search.fit(
@@ -272,13 +281,11 @@ def train_model(conn):
     )
 
 
-
     # ====================================
-    # Obtener mejor modelo
+    # Mejor modelo encontrado
     # ====================================
 
     model = random_search.best_estimator_
-
 
 
     print("\n")
@@ -286,27 +293,28 @@ def train_model(conn):
     print("RANDOMIZED SEARCH FINALIZADO")
     print("=" * 60)
 
-
-
     print("\nMejores hiperparámetros:\n")
-
 
     for parametro, valor in random_search.best_params_.items():
 
         print(
+
             f"{parametro}: {valor}"
+
         )
 
 
     print("\n")
-    print(
-        "Mejor Precision promedio CV:"
-    )
-
 
     print(
+
+        f"Mejor ROC-AUC promedio: "
+
         f"{random_search.best_score_:.4f}"
+
     )
+
+
         # ====================================
     # Crear carpeta models
     # ====================================
@@ -316,9 +324,8 @@ def train_model(conn):
         exist_ok=True
     )
 
-
     # ====================================
-    # Guardar modelo optimizado
+    # Guardar mejor modelo
     # ====================================
 
     with open(
@@ -330,7 +337,6 @@ def train_model(conn):
             model,
             f
         )
-
 
     # ====================================
     # Guardar encoders
@@ -346,39 +352,32 @@ def train_model(conn):
             f
         )
 
-
-
     print("\n")
     print("=" * 60)
-    print("MODELO RANDOM FOREST OPTIMIZADO GUARDADO")
+    print("MODELO OPTIMIZADO GUARDADO")
     print("=" * 60)
 
-
-
     print(
-        f"Combinaciones evaluadas: "
-        f"{random_search.n_iter}"
+        f"Combinaciones evaluadas : {random_search.n_iter}"
     )
 
-
     print(
-        f"Folds utilizados: "
-        f"{random_search.cv}"
+        f"Folds utilizados        : {random_search.cv}"
     )
 
-
     print(
-        f"Total entrenamientos realizados: "
+        f"Modelos entrenados      : "
         f"{random_search.n_iter * random_search.cv}"
     )
 
-
     print("=" * 60)
 
-
-
     return (
+
         model,
+
         X_test,
+
         y_test
+
     )
