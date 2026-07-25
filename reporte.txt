@@ -1,0 +1,571 @@
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=8, max_features=log2, min_samples_leaf=3, min_samples_split=14, n_estimators=729; total time=   4.0s
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=8, max_features=log2, min_samples_leaf=3, min_samples_split=14, n_estimators=729; total time=   3.9s
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=8, min_samples_split=8, n_estimators=283; total time=   1.3s
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=8, min_samples_split=8, n_estimators=283; total time=   1.2s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=8, min_samples_split=8, n_estimators=283; total time=   1.0s
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+C:\ProyectoP_c3\Grupo4_IC_PPIIA\env\Lib\site-packages\sklearn\utils\parallel.py:144: UserWarning: `sklearn.utils.parallel.delayed` should be used with `sklearn.utils.parallel.Parallel` to make it possible to propagate the scikit-learn configuration of the current thread to the joblib workers.
+  warnings.warn(
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=8, min_samples_split=8, n_estimators=283; total time=   1.6s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=8, min_samples_split=8, n_estimators=283; total time=   2.5s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=8, max_features=log2, min_samples_leaf=3, min_samples_split=14, n_estimators=729; total time=   3.1s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=8, max_features=log2, min_samples_leaf=3, min_samples_split=14, n_estimators=729; total time=   3.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=12, max_features=log2, min_samples_leaf=2, min_samples_split=6, n_estimators=752; total time=   3.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=12, max_features=log2, min_samples_leaf=2, min_samples_split=6, n_estimators=752; total time=   3.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=12, max_features=log2, min_samples_leaf=2, min_samples_split=6, n_estimators=752; total time=   3.4s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=12, max_features=log2, min_samples_leaf=2, min_samples_split=6, n_estimators=752; total time=   3.3s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=8, min_samples_split=5, n_estimators=951; total time=   3.4s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=12, max_features=log2, min_samples_leaf=2, min_samples_split=6, n_estimators=752; total time=   3.4s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=8, min_samples_split=5, n_estimators=951; total time=   3.7s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=8, min_samples_split=5, n_estimators=951; total time=   3.7s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=8, max_features=log2, min_samples_leaf=3, min_samples_split=14, n_estimators=729; total time=   5.7s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=9, min_samples_split=3, n_estimators=362; total time=   2.5s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=8, min_samples_split=5, n_estimators=951; total time=   5.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=9, min_samples_split=3, n_estimators=362; total time=   2.3s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=8, min_samples_split=5, n_estimators=951; total time=   5.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=9, min_samples_split=3, n_estimators=362; total time=   2.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=9, min_samples_split=3, n_estimators=362; total time=   2.6s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=9, min_samples_split=3, n_estimators=362; total time=   2.4s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=log2, min_samples_leaf=9, min_samples_split=2, n_estimators=332; total time=   1.6s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=log2, min_samples_leaf=9, min_samples_split=2, n_estimators=332; total time=   1.5s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=log2, min_samples_leaf=9, min_samples_split=2, n_estimators=332; total time=   1.7s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=log2, min_samples_leaf=9, min_samples_split=2, n_estimators=332; total time=   1.7s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=sqrt, min_samples_leaf=7, min_samples_split=16, n_estimators=486; total time=   2.7s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=sqrt, min_samples_leaf=7, min_samples_split=16, n_estimators=486; total time=   2.2s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=sqrt, min_samples_leaf=7, min_samples_split=16, n_estimators=486; total time=   2.4s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=log2, min_samples_leaf=9, min_samples_split=2, n_estimators=332; total time=   1.7s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=sqrt, min_samples_leaf=7, min_samples_split=16, n_estimators=486; total time=   2.4s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=sqrt, min_samples_leaf=7, min_samples_split=16, n_estimators=486; total time=   2.0s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=5, max_features=None, min_samples_leaf=6, min_samples_split=13, n_estimators=450; total time=   1.5s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=5, min_samples_split=2, n_estimators=318; total time=   1.5s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=5, max_features=None, min_samples_leaf=6, min_samples_split=13, n_estimators=450; total time=   1.6s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=5, max_features=None, min_samples_leaf=6, min_samples_split=13, n_estimators=450; total time=   1.6s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=5, max_features=None, min_samples_leaf=6, min_samples_split=13, n_estimators=450; total time=   1.6s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=5, max_features=None, min_samples_leaf=6, min_samples_split=13, n_estimators=450; total time=   1.8s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=5, min_samples_split=2, n_estimators=318; total time=   1.7s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=log2, min_samples_leaf=4, min_samples_split=12, n_estimators=886; total time=   3.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=log2, min_samples_leaf=4, min_samples_split=12, n_estimators=886; total time=   3.4s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=log2, min_samples_leaf=4, min_samples_split=12, n_estimators=886; total time=   3.2s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=5, min_samples_split=2, n_estimators=318; total time=   1.8s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=5, min_samples_split=2, n_estimators=318; total time=   1.8s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=5, min_samples_split=2, n_estimators=318; total time=   1.8s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=log2, min_samples_leaf=4, min_samples_split=12, n_estimators=886; total time=   3.6s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=log2, min_samples_leaf=4, min_samples_split=12, n_estimators=886; total time=   5.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=None, min_samples_leaf=2, min_samples_split=13, n_estimators=493; total time=  11.5s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=None, min_samples_leaf=2, min_samples_split=13, n_estimators=493; total time=  11.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=log2, min_samples_leaf=7, min_samples_split=9, n_estimators=540; total time=  11.0s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=None, min_samples_leaf=2, min_samples_split=13, n_estimators=493; total time=  11.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=None, min_samples_leaf=2, min_samples_split=13, n_estimators=493; total time=  11.5s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=log2, min_samples_leaf=7, min_samples_split=9, n_estimators=540; total time=  11.0s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=log2, min_samples_leaf=7, min_samples_split=9, n_estimators=540; total time=  10.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=15, max_features=None, min_samples_leaf=5, min_samples_split=2, n_estimators=890; total time=  13.0s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=None, min_samples_leaf=2, min_samples_split=13, n_estimators=493; total time=  11.3s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=15, max_features=None, min_samples_leaf=5, min_samples_split=2, n_estimators=890; total time=  13.5s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=15, max_features=None, min_samples_leaf=5, min_samples_split=2, n_estimators=890; total time=  12.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=15, max_features=None, min_samples_leaf=5, min_samples_split=2, n_estimators=890; total time=  13.1s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=15, max_features=None, min_samples_leaf=5, min_samples_split=2, n_estimators=890; total time=  13.4s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=996; total time=  12.0s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=996; total time=  11.8s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=996; total time=  11.8s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=996; total time=  11.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=996; total time=  12.0s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=log2, min_samples_leaf=7, min_samples_split=9, n_estimators=540; total time=   3.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=log2, min_samples_leaf=7, min_samples_split=9, n_estimators=540; total time=   3.8s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=15, n_estimators=200; total time=   0.9s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=15, n_estimators=200; total time=   1.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=15, n_estimators=200; total time=   1.2s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=None, max_features=log2, min_samples_leaf=5, min_samples_split=16, n_estimators=285; total time=   1.4s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=25, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=344; total time=   1.4s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=25, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=344; total time=   1.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=None, max_features=log2, min_samples_leaf=5, min_samples_split=16, n_estimators=285; total time=   1.4s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=15, n_estimators=200; total time=   1.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=15, n_estimators=200; total time=   1.3s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=None, max_features=log2, min_samples_leaf=5, min_samples_split=16, n_estimators=285; total time=   1.5s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=None, max_features=log2, min_samples_leaf=5, min_samples_split=16, n_estimators=285; total time=   1.5s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=25, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=344; total time=   1.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=None, max_features=log2, min_samples_leaf=5, min_samples_split=16, n_estimators=285; total time=   1.5s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=25, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=344; total time=   1.6s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=25, max_features=None, min_samples_leaf=2, min_samples_split=19, n_estimators=344; total time=   1.8s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=2, min_samples_split=19, n_estimators=596; total time=   1.3s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=4, min_samples_split=3, n_estimators=580; total time=   1.4s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=2, min_samples_split=19, n_estimators=596; total time=   1.4s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=4, min_samples_split=3, n_estimators=580; total time=   1.5s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=4, min_samples_split=3, n_estimators=580; total time=   1.5s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=4, min_samples_split=3, n_estimators=580; total time=   1.6s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=4, min_samples_split=3, n_estimators=580; total time=   1.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=2, min_samples_split=19, n_estimators=596; total time=   2.4s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=980; total time=   2.7s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=980; total time=   2.8s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=903; total time=   4.2s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=903; total time=   3.1s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=903; total time=   3.0s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=903; total time=   4.3s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=903; total time=   4.0s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=980; total time=   2.8s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=980; total time=   3.6s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=13, n_estimators=301; total time=   2.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=2, min_samples_split=19, n_estimators=596; total time=   5.4s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=2, min_samples_split=19, n_estimators=596; total time=   5.1s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=13, n_estimators=301; total time=   3.1s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=13, n_estimators=301; total time=   3.1s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=13, n_estimators=301; total time=   3.2s
+[CV] END bootstrap=True, class_weight=None, criterion=gini, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=13, n_estimators=301; total time=   3.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=5, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=980; total time=   5.9s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=log2, min_samples_leaf=7, min_samples_split=16, n_estimators=804; total time=   4.0s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=1, min_samples_split=8, n_estimators=800; total time=   4.1s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=1, min_samples_split=8, n_estimators=800; total time=   4.1s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=1, min_samples_split=8, n_estimators=800; total time=   4.2s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=1, min_samples_split=8, n_estimators=800; total time=   4.2s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=1, min_samples_split=8, n_estimators=800; total time=   4.3s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=6, min_samples_split=13, n_estimators=332; total time=   1.0s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=6, min_samples_split=13, n_estimators=332; total time=   1.0s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=6, min_samples_split=13, n_estimators=332; total time=   1.1s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=6, min_samples_split=13, n_estimators=332; total time=   1.0s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=log2, min_samples_leaf=7, min_samples_split=16, n_estimators=804; total time=   5.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=log2, min_samples_leaf=2, min_samples_split=15, n_estimators=976; total time=   4.9s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=6, min_samples_split=13, n_estimators=332; total time=   4.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=log2, min_samples_leaf=7, min_samples_split=16, n_estimators=804; total time=   7.9s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=7, min_samples_split=7, n_estimators=697; total time=   4.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=log2, min_samples_leaf=7, min_samples_split=16, n_estimators=804; total time=   8.3s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=12, max_features=log2, min_samples_leaf=7, min_samples_split=16, n_estimators=804; total time=   8.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=log2, min_samples_leaf=2, min_samples_split=15, n_estimators=976; total time=   4.8s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=7, min_samples_split=7, n_estimators=697; total time=   4.7s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=log2, min_samples_leaf=2, min_samples_split=15, n_estimators=976; total time=   5.0s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=7, min_samples_split=7, n_estimators=697; total time=   4.8s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=log2, min_samples_leaf=2, min_samples_split=15, n_estimators=976; total time=   5.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=sqrt, min_samples_leaf=7, min_samples_split=12, n_estimators=535; total time=   4.6s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=None, max_features=log2, min_samples_leaf=2, min_samples_split=15, n_estimators=976; total time=   5.1s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=7, min_samples_split=7, n_estimators=697; total time=   5.0s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=sqrt, min_samples_leaf=7, min_samples_split=12, n_estimators=535; total time=   3.6s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=7, min_samples_split=7, n_estimators=697; total time=   5.0s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=sqrt, min_samples_leaf=7, min_samples_split=12, n_estimators=535; total time=   3.6s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=sqrt, min_samples_leaf=7, min_samples_split=12, n_estimators=535; total time=   4.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=3, min_samples_split=9, n_estimators=343; total time=   5.8s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=3, min_samples_split=9, n_estimators=343; total time=   5.9s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=3, min_samples_split=9, n_estimators=343; total time=   5.9s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=log_loss, max_depth=15, max_features=sqrt, min_samples_leaf=7, min_samples_split=12, n_estimators=535; total time=   8.0s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=4, min_samples_split=17, n_estimators=572; total time=   6.5s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=3, min_samples_split=16, n_estimators=523; total time=   6.6s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=3, min_samples_split=16, n_estimators=523; total time=   6.6s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=3, min_samples_split=16, n_estimators=523; total time=   7.5s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=3, min_samples_split=9, n_estimators=343; total time=   5.5s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=3, min_samples_split=16, n_estimators=523; total time=   7.8s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=3, min_samples_split=9, n_estimators=343; total time=   5.9s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=4, min_samples_split=17, n_estimators=572; total time=   6.6s
+[CV] END bootstrap=True, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=3, min_samples_split=16, n_estimators=523; total time=   6.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=4, min_samples_split=12, n_estimators=462; total time=   5.5s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=4, min_samples_split=12, n_estimators=462; total time=   2.6s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=4, min_samples_split=12, n_estimators=462; total time=   5.3s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=4, min_samples_split=12, n_estimators=462; total time=   5.6s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=4, min_samples_split=17, n_estimators=572; total time=   6.7s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=4, min_samples_split=17, n_estimators=572; total time=   6.9s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=4, min_samples_split=17, n_estimators=572; total time=   6.9s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=6, min_samples_split=10, n_estimators=225; total time=   2.3s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=6, min_samples_split=10, n_estimators=225; total time=   2.6s
+[CV] END bootstrap=False, class_weight=balanced, criterion=entropy, max_depth=8, max_features=sqrt, min_samples_leaf=4, min_samples_split=12, n_estimators=462; total time=   2.9s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=6, min_samples_split=10, n_estimators=225; total time=   2.6s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=7, min_samples_split=18, n_estimators=644; total time=   3.0s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=8, min_samples_split=14, n_estimators=561; total time=   2.9s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=6, min_samples_split=10, n_estimators=225; total time=   2.7s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=7, min_samples_split=18, n_estimators=644; total time=   3.0s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=8, min_samples_split=14, n_estimators=561; total time=   2.9s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=25, max_features=log2, min_samples_leaf=6, min_samples_split=10, n_estimators=225; total time=   2.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=8, min_samples_split=14, n_estimators=561; total time=   3.0s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=8, min_samples_split=14, n_estimators=561; total time=   3.0s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=8, min_samples_split=14, n_estimators=561; total time=   3.0s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=7, min_samples_split=18, n_estimators=644; total time=   3.1s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=7, min_samples_split=18, n_estimators=644; total time=   3.2s
+[CV] END bootstrap=True, class_weight=balanced, criterion=log_loss, max_depth=15, max_features=None, min_samples_leaf=7, min_samples_split=18, n_estimators=644; total time=   3.6s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=log2, min_samples_leaf=3, min_samples_split=5, n_estimators=638; total time=   2.5s
+[CV] END bootstrap=False, class_weight=None, criterion=entropy, max_depth=10, max_features=sqrt, min_samples_leaf=4, min_samples_split=19, n_estimators=863; total time=   2.5s
+[CV] END bootstrap=False, class_weight=None, criterion=entropy, max_depth=10, max_features=sqrt, min_samples_leaf=4, min_samples_split=19, n_estimators=863; total time=   2.6s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=9, min_samples_split=11, n_estimators=783; total time=   5.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=log2, min_samples_leaf=3, min_samples_split=5, n_estimators=638; total time=   2.8s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=log2, min_samples_leaf=3, min_samples_split=5, n_estimators=638; total time=   2.7s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=9, min_samples_split=11, n_estimators=783; total time=   5.7s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=log2, min_samples_leaf=3, min_samples_split=5, n_estimators=638; total time=   2.7s
+[CV] END bootstrap=False, class_weight=None, criterion=entropy, max_depth=10, max_features=sqrt, min_samples_leaf=4, min_samples_split=19, n_estimators=863; total time=   2.8s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=5, max_features=log2, min_samples_leaf=3, min_samples_split=5, n_estimators=638; total time=   2.8s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=9, min_samples_split=11, n_estimators=783; total time=   4.3s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=9, min_samples_split=11, n_estimators=783; total time=   4.3s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=2, n_estimators=830; total time=   3.0s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=None, max_features=log2, min_samples_leaf=9, min_samples_split=11, n_estimators=783; total time=   3.9s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=2, n_estimators=830; total time=   3.6s
+[CV] END bootstrap=False, class_weight=None, criterion=entropy, max_depth=10, max_features=sqrt, min_samples_leaf=4, min_samples_split=19, n_estimators=863; total time=   3.9s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=2, n_estimators=830; total time=   4.1s
+[CV] END bootstrap=False, class_weight=None, criterion=entropy, max_depth=10, max_features=sqrt, min_samples_leaf=4, min_samples_split=19, n_estimators=863; total time=   4.2s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=8, n_estimators=359; total time=   1.6s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=2, n_estimators=830; total time=   5.0s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=8, n_estimators=359; total time=   1.3s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=8, n_estimators=359; total time=   1.5s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=8, n_estimators=359; total time=   1.9s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=None, max_features=sqrt, min_samples_leaf=3, min_samples_split=8, n_estimators=359; total time=   1.5s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=2, n_estimators=830; total time=   3.6s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=519; total time=   1.8s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=519; total time=   1.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=519; total time=   1.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=519; total time=   1.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=9, min_samples_split=3, n_estimators=519; total time=   1.9s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=12, max_features=sqrt, min_samples_leaf=1, min_samples_split=5, n_estimators=272; total time=   1.2s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=12, max_features=sqrt, min_samples_leaf=1, min_samples_split=5, n_estimators=272; total time=   1.9s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=12, max_features=sqrt, min_samples_leaf=1, min_samples_split=5, n_estimators=272; total time=   1.8s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=12, max_features=sqrt, min_samples_leaf=1, min_samples_split=5, n_estimators=272; total time=   2.0s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=6, min_samples_split=11, n_estimators=487; total time=   3.1s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=6, min_samples_split=11, n_estimators=487; total time=   2.6s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=6, min_samples_split=11, n_estimators=487; total time=   2.6s
+[CV] END bootstrap=True, class_weight=None, criterion=entropy, max_depth=12, max_features=sqrt, min_samples_leaf=1, min_samples_split=5, n_estimators=272; total time=   2.3s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=6, min_samples_split=11, n_estimators=487; total time=   2.8s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=6, min_samples_split=8, n_estimators=952; total time=   4.4s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=6, min_samples_split=8, n_estimators=952; total time=   4.5s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=6, min_samples_split=8, n_estimators=952; total time=   4.5s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=entropy, max_depth=10, max_features=log2, min_samples_leaf=6, min_samples_split=11, n_estimators=487; total time=   3.3s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=3, min_samples_split=7, n_estimators=329; total time=   1.6s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=5, min_samples_split=9, n_estimators=429; total time=   1.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=5, min_samples_split=9, n_estimators=429; total time=   1.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=5, min_samples_split=9, n_estimators=429; total time=   2.0s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=3, min_samples_split=7, n_estimators=329; total time=   1.8s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=3, min_samples_split=7, n_estimators=329; total time=   1.8s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=5, min_samples_split=9, n_estimators=429; total time=   2.3s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=6, min_samples_split=8, n_estimators=952; total time=   5.6s
+[CV] END bootstrap=True, class_weight=balanced_subsample, criterion=gini, max_depth=8, max_features=None, min_samples_leaf=6, min_samples_split=8, n_estimators=952; total time=   5.7s
+[CV] END bootstrap=True, class_weight=balanced, criterion=gini, max_depth=12, max_features=None, min_samples_leaf=5, min_samples_split=9, n_estimators=429; total time=   2.2s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=3, min_samples_split=7, n_estimators=329; total time=   2.1s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=7, min_samples_split=5, n_estimators=980; total time=   4.0s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=7, min_samples_split=5, n_estimators=980; total time=   4.2s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=7, min_samples_split=5, n_estimators=980; total time=   4.1s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=7, min_samples_split=5, n_estimators=980; total time=   4.6s
+[CV] END bootstrap=False, class_weight=balanced, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=3, min_samples_split=7, n_estimators=329; total time=   1.6s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=20, max_features=sqrt, min_samples_leaf=7, min_samples_split=5, n_estimators=980; total time=   4.3s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=8, min_samples_split=4, n_estimators=855; total time=   2.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=817; total time=   2.6s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=817; total time=   2.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=817; total time=   2.8s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=9, n_estimators=861; total time=   3.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=9, n_estimators=861; total time=   4.1s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=817; total time=   3.2s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=9, n_estimators=861; total time=   3.7s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=6, n_estimators=447; total time=   3.5s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=15, max_features=sqrt, min_samples_leaf=9, min_samples_split=17, n_estimators=817; total time=   3.7s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=9, n_estimators=861; total time=   3.9s
+[CV] END bootstrap=True, class_weight=balanced, criterion=entropy, max_depth=5, max_features=None, min_samples_leaf=2, min_samples_split=9, n_estimators=861; total time=   4.4s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=6, n_estimators=447; total time=   4.2s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=8, min_samples_split=4, n_estimators=855; total time=   4.6s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=8, min_samples_split=4, n_estimators=855; total time=   4.7s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=8, min_samples_split=4, n_estimators=855; total time=   4.6s
+[CV] END bootstrap=False, class_weight=balanced, criterion=gini, max_depth=25, max_features=sqrt, min_samples_leaf=8, min_samples_split=4, n_estimators=855; total time=   4.6s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=6, n_estimators=447; total time=   3.3s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=6, n_estimators=447; total time=   2.8s
+[CV] END bootstrap=False, class_weight=None, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=4, min_samples_split=7, n_estimators=605; total time=   1.9s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=12, max_features=None, min_samples_leaf=8, min_samples_split=6, n_estimators=447; total time=   2.9s
+[CV] END bootstrap=False, class_weight=None, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=4, min_samples_split=7, n_estimators=605; total time=   1.9s
+[CV] END bootstrap=False, class_weight=None, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=4, min_samples_split=7, n_estimators=605; total time=   1.7s
+[CV] END bootstrap=False, class_weight=None, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=4, min_samples_split=7, n_estimators=605; total time=   1.7s
+[CV] END bootstrap=False, class_weight=None, criterion=gini, max_depth=20, max_features=sqrt, min_samples_leaf=4, min_samples_split=7, n_estimators=605; total time=   2.1s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=8, max_features=sqrt, min_samples_leaf=2, min_samples_split=10, n_estimators=540; total time=   1.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=15, max_features=log2, min_samples_leaf=4, min_samples_split=3, n_estimators=708; total time=   2.2s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=8, max_features=sqrt, min_samples_leaf=2, min_samples_split=10, n_estimators=540; total time=   1.3s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=8, max_features=sqrt, min_samples_leaf=2, min_samples_split=10, n_estimators=540; total time=   1.2s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=15, max_features=log2, min_samples_leaf=4, min_samples_split=3, n_estimators=708; total time=   2.3s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=15, max_features=log2, min_samples_leaf=4, min_samples_split=3, n_estimators=708; total time=   2.2s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=8, max_features=sqrt, min_samples_leaf=2, min_samples_split=10, n_estimators=540; total time=   1.4s
+[CV] END bootstrap=False, class_weight=None, criterion=log_loss, max_depth=8, max_features=sqrt, min_samples_leaf=2, min_samples_split=10, n_estimators=540; total time=   1.4s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=15, max_features=log2, min_samples_leaf=4, min_samples_split=3, n_estimators=708; total time=   1.9s
+[CV] END bootstrap=False, class_weight=balanced_subsample, criterion=gini, max_depth=15, max_features=log2, min_samples_leaf=4, min_samples_split=3, n_estimators=708; total time=   2.0s
+
+
+============================================================
+RANDOMIZED SEARCH FINALIZADO
+============================================================
+
+Mejores hiperparámetros:
+
+bootstrap: False
+class_weight: balanced_subsample
+criterion: entropy
+max_depth: 12
+max_features: log2
+min_samples_leaf: 2
+min_samples_split: 6
+n_estimators: 752
+
+
+Mejor ROC-AUC promedio: 0.7216
+
+
+============================================================
+MODELO OPTIMIZADO GUARDADO
+============================================================
+Combinaciones evaluadas : 300
+Folds utilizados        : 5
+Modelos entrenados      : 1500
+============================================================
+
+
+================================================================================
+RESULTADOS PARA CADA UMBRAL
+================================================================================
+Umbral    Precision   Recall      F1
+0.30      0.509       0.911       0.653
+0.31      0.506       0.878       0.642
+0.32      0.520       0.856       0.647
+0.33      0.528       0.844       0.650
+0.34      0.532       0.833       0.649
+0.35      0.538       0.789       0.640
+0.36      0.540       0.744       0.626
+0.37      0.559       0.733       0.635
+0.38      0.593       0.711       0.646
+0.39      0.590       0.689       0.636
+0.40      0.625       0.667       0.645
+0.41      0.620       0.633       0.626
+0.42      0.628       0.600       0.614
+0.43      0.634       0.578       0.605
+0.44      0.650       0.578       0.612
+0.45      0.662       0.544       0.598
+0.46      0.681       0.522       0.591
+0.47      0.691       0.522       0.595
+0.48      0.682       0.500       0.577
+0.49      0.677       0.467       0.553
+0.50      0.689       0.467       0.556
+0.51      0.695       0.456       0.550
+0.52      0.695       0.456       0.550
+0.53      0.709       0.433       0.538
+0.54      0.729       0.389       0.507
+0.55      0.717       0.367       0.485
+0.56      0.698       0.333       0.451
+0.57      0.707       0.322       0.443
+0.58      0.684       0.289       0.406
+0.59      0.667       0.244       0.358
+0.60      0.677       0.233       0.347
+0.61      0.677       0.233       0.347
+0.62      0.643       0.200       0.305
+0.63      0.625       0.167       0.263
+0.64      0.550       0.122       0.200
+0.65      0.647       0.122       0.206
+0.66      0.647       0.122       0.206
+0.67      0.667       0.111       0.190
+0.68      0.667       0.111       0.190
+0.69      0.667       0.089       0.157
+0.70      0.800       0.089       0.160
+0.71      0.889       0.089       0.162
+0.72      0.875       0.078       0.143
+0.73      0.875       0.078       0.143
+0.74      0.875       0.078       0.143
+0.75      0.857       0.067       0.124
+0.76      0.857       0.067       0.124
+0.77      1.000       0.067       0.125
+0.78      1.000       0.067       0.125
+0.79      1.000       0.056       0.105
+0.80      1.000       0.056       0.105
+0.81      1.000       0.056       0.105
+0.82      1.000       0.056       0.105
+0.83      1.000       0.044       0.085
+0.84      1.000       0.044       0.085
+0.85      1.000       0.033       0.065
+0.86      1.000       0.033       0.065
+0.87      1.000       0.033       0.065
+0.88      1.000       0.033       0.065
+0.89      1.000       0.022       0.043
+0.90      1.000       0.022       0.043
+0.91      1.000       0.022       0.043
+
+
+================================================================================
+MEJOR UMBRAL ENCONTRADO
+================================================================================
+Umbral seleccionado: 0.53
+Precision mínima requerida: 0.70
+
+
+============================================================
+RESULTADOS FINALES
+============================================================
+Accuracy : 0.7362
+Precision: 0.7091
+Recall   : 0.4333
+F1 Score : 0.5379
+AUC-ROC  : 0.8018
+
+Matriz de confusión
+[[148  16]
+ [ 51  39]]
+
+Reporte de clasificación
+              precision    recall  f1-score   support
+
+           0       0.74      0.90      0.82       164
+           1       0.71      0.43      0.54        90
+
+    accuracy                           0.74       254
+   macro avg       0.73      0.67      0.68       254
+weighted avg       0.73      0.74      0.72       254
+
+(env) PS C:\ProyectoP_c3\Grupo4_IC_PPIIA> 
