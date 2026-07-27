@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-
+#from preprocessing.feature_engineering import feature_engineering
 from src.config.settings import (
     FEATURES,
     TARGET,
@@ -22,6 +22,13 @@ from src.config.settings import (
 def train_model(conn):
     """
     Entrena el modelo de Machine Learning.
+
+    Versión simple (sin RandomizedSearchCV), elegida como modelo final
+    tras comparar contra la versión optimizada con RandomizedSearchCV +
+    F-beta(0.5): esta versión simple generaliza mejor bajo GroupKFold
+    (validación por lote nunca visto), aunque su métrica en split
+    aleatorio sea algo menor. Ver bitácora de cambios metodológicos
+    para el detalle de esa comparación.
 
     Parámetros
     ----------
@@ -116,7 +123,6 @@ def train_model(conn):
     model = RandomForestClassifier(
         n_estimators=300,
         max_depth=8,
-        criterion="gini",
         min_samples_split=5,
         min_samples_leaf=5,
         class_weight="balanced",
